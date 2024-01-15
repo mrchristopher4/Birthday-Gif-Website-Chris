@@ -1,0 +1,93 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#a2d2ff, navy);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://i.gifer.com/origin/65/651d5042e49e2eea63ea94c09e119716_w200.gif");
+}
+
+#gift-img-hot:hover {
+    background-image: url("https://media0.giphy.com/media/6EQQhEeDL1KySoFcn5/200.webp?cid=ecf05e47qt2ta4wrphrzi06z5wwsqq5ehyrvwhg6n2mzmz2j&ep=v1_gifs_search&rid=200.webp&ct=g");
+}
+
+#gift-img-genius:hover {
+    background-image: url("https://media4.giphy.com/media/MdA16VIoXKKxNE8Stk/200w.webp?cid=ecf05e47zv4avuydcau3v5m7s1earaqwgq42j5trx3fushg3&ep=v1_gifs_search&rid=200w.webp&ct=g");
+}
+
+#gift-img-badass:hover {
+    background-image: url("https://media3.giphy.com/media/l4JyLk4vahCnHQhmU/200w.webp?cid=ecf05e47pheucslt1kifprnoyymwtg2cxtula6mfqk0gl6wu&ep=v1_gifs_search&rid=200w.webp&ct=g");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("https://media2.giphy.com/media/dsWb5642jo3d1LVRrN/200w.webp?cid=ecf05e476flrh96frqohrc06uxemizmzq39xrt4vlz886v23&ep=v1_gifs_search&rid=200w.webp&ct=g");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
